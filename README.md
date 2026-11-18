@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -67,7 +67,7 @@ The sector exhibits a **moderately fragmented** structure: legacy test managemen
 
 ## ⚡ Open-Source GitHub Projects (Sorted by Stars)
 
-All open-source tools below are strictly sorted in descending order of GitHub stargazers. Each repository star badge links directly to that repository's stargazers community page.
+All open-source tools below are strictly sorted in descending order of GitHub stargazers. Each repository Stars_Badge links directly to that repository's stargazers community page.
 
 ### 🏆 Core Frameworks & Runners
 
@@ -199,7 +199,7 @@ Contributions are warmly welcome! Please review our guidelines to suggest additi
 2. 📝 **Add or update entries** in `README.md` maintaining the existing structure:
    - Include tool name, official link, GitHub repository (if open-source), and a concise 1–2 sentence description.
    - For SaaS products, include exact pricing, free tier/trial limits, and company size data.
-   - For open-source projects, include the social-style star badge linking to its stargazers page.
+   - For open-source projects, include the social-style Stars_Badge linking to its stargazers page.
 3. 🚀 **Submit a Pull Request** with a clear explanation of what was added or changed.
 
 ---
