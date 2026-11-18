@@ -1,46 +1,53 @@
-# Awesome-Javascript-End-To-End-Testing-Integration
+# 🚀 Awesome JavaScript End-To-End (E2E) Testing & Automation Integration
 
-## Top JavaScript End-to-End Testing Integration Ecosystem
+<div align="center">
 
+<a href="https://github.com/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration">
+  <img src="assets/banner.svg" alt="Awesome JavaScript End-to-End Testing & Integration Ecosystem Banner" width="100%" />
+</a>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<p align="center">
+  <strong>Curated Directory of Modern JavaScript & TypeScript End-to-End (E2E) Testing Frameworks, Cloud Browser Grids, AI Test Automation, Visual Regression &amp; CI/CD Orchestration</strong>
+</p>
 
-*Focused on Browser Automation, E2E Test Frameworks, Cloud Grid Integrations, Visual Regression & Test Orchestration*  
+</div>
 
-**Last updated: November 2026**
+---
 
+## 📖 Table of Contents
 
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Cloud Testing Platforms](#️-saas--hosted-cloud-testing-platforms)
+- [⚡ Open-Source GitHub Projects (Sorted by Stars)](#-open-source-github-projects-sorted-by-stars)
+  - [🏆 Core Frameworks & Runners](#-core-frameworks--runners)
+  - [🛠️ Network Mocking, Accessibility & Performance Testing](#️-network-mocking-accessibility--performance-testing)
+  - [🖥️ Cloud Grids, Docker Runners & Test Dashboards](#️-cloud-grids-docker-runners--test-dashboards)
+  - [👁️ Visual Regression & Specialized E2E Engines](#️-visual-regression--specialized-e2e-engines)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & Security Best Practices](#️-disclaimer--security-best-practices)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **JavaScript End-to-End Testing Integration**. These tools power automated browser testing, cross-browser cloud execution, parallel test orchestration, network interception, video/trace debugging, and CI/CD test reporting across modern web applications.
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
+The global automated and continuous testing market is valued at approximately **$40 billion** (with dedicated CI/CD continuous testing tools comprising $2.5B–$2.7B) and is compounding at **~14–16% CAGR** driven by shift-left testing, microservices, and AI-assisted QA workflows. 
 
-**Examples** include BrowserStack Nightwatch.js Integration, Nightwatch.js, WebdriverIO, Cypress, Playwright, TestCafe, Jest, Puppeteer, Mocha, and Jasmine (the category leaders). 
+The sector exhibits a **moderately fragmented** structure: legacy test management and enterprise compliance remain concentrated around a handful of dominant vendors, while modern cloud execution, browser grids, and visual regression layers remain highly competitive and fragmented with intense startup innovation and open-source disruption.
 
+---
 
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for browser automation, self-hosted Selenium/Playwright grids, test runners, visual diffing, and reporting dashboards — ideal for QA automation engineers, SDETs, frontend developers, and DevOps teams building reliable E2E testing pipelines.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global automated and continuous testing market is valued at approximately $40 billion (with dedicated CI/CD continuous testing tools comprising $2.5B–$2.7B) and is compounding at ~14–16% CAGR driven by shift-left testing, microservices, and AI-assisted QA workflows. The sector exhibits a moderately fragmented structure: legacy test management and enterprise compliance remain concentrated around a handful of dominant vendors, while the modern cloud execution, browser grid, and visual regression layers remain highly competitive and fragmented with intense startup innovation and open-source disruption.
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS & Hosted Cloud Testing Platforms
 
 | Platform | Description | Pricing (Starting Tier) | Free Tier / Trial Limits | Company Size (Valuation / Revenue) |
 |---|---|---|---|---|
@@ -56,172 +63,151 @@ The global automated and continuous testing market is valued at approximately $4
 | **[Momentic](https://momentic.ai)** | AI-native end-to-end testing platform enabling natural-language test authoring, self-healing, and JavaScript CI/CD integration. | $500/month (Scale plan) | Free forever: $50 worth of monthly usage credits (approx. 2,000 credits, no credit card required) | ~$22.8M Total Raised (Series A) |
 | **[Currents.dev](https://currents.dev)** | Cloud orchestration dashboard for Playwright, Cypress, and Jest with parallelization, flake analytics, and CI/CD reporting. | $49/month (Scale plan for 10,000 test results/month) | 14-day free trial: up to 10,000 test results (no credit card required) | Early-stage private / ~$440K ARR |
 
-## Open-Source GitHub Projects
+---
 
+## ⚡ Open-Source GitHub Projects (Sorted by Stars)
 
+All open-source tools below are strictly sorted in descending order of GitHub stargazers. Each repository star badge links directly to that repository's stargazers community page.
 
-- **[Playwright (by Microsoft)](https://github.com)**  
+### 🏆 Core Frameworks & Runners
 
-  Modern, fast open-source end-to-end testing and browser automation framework supporting Chromium, Firefox, and WebKit with auto-waiting, trace viewer, and codegen.
+1. **[Playwright](https://github.com/microsoft/playwright)** [![Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)  
+   Modern, ultra-fast end-to-end testing and browser automation framework by Microsoft supporting Chromium, Firefox, and WebKit with auto-waiting, network interception, trace viewer, and codegen.
 
+2. **[Puppeteer](https://github.com/puppeteer/puppeteer)** [![Stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers)  
+   Official Node.js library developed by the Chrome DevTools team providing a high-level API to automate Chrome and Firefox over the Chrome DevTools Protocol (CDP) and WebDriver BiDi.
 
+3. **[Cypress](https://github.com/cypress-io/cypress)** [![Stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social&color=white)](https://github.com/cypress-io/cypress/stargazers)  
+   Developer-friendly JavaScript & TypeScript E2E and component testing framework executing directly inside the browser with time-travel debugging, automated waiting, and screenshot/video capture.
 
-- **[Cypress](https://github.com)**  
+4. **[Jest](https://github.com/jestjs/jest)** [![Stars](https://img.shields.io/github/stars/jestjs/jest?style=social&color=white)](https://github.com/jestjs/jest/stargazers)  
+   Widely adopted JavaScript testing framework by Meta frequently paired with Puppeteer (`jest-puppeteer`), Playwright, and DOM environments for end-to-end integration and smoke suites.
 
-  Developer-friendly open-source JavaScript E2E and component testing framework running directly inside the browser with time-travel debugging and automatic waiting.
+5. **[Selenium](https://github.com/SeleniumHQ/selenium)** [![Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)  
+   The foundational browser automation standard (`selenium-webdriver`), powering cross-browser execution across Chrome, Firefox, Safari, and distributed Selenium Grid 4 nodes.
 
+6. **[Mocha](https://github.com/mochajs/mocha)** [![Stars](https://img.shields.io/github/stars/mochajs/mocha?style=social&color=white)](https://github.com/mochajs/mocha/stargazers)  
+   Simple, flexible JavaScript test framework running on Node.js and in the browser, providing asynchronous testing, custom reporters, and pairing with WebDriver or Puppeteer.
 
+7. **[AVA](https://github.com/avajs/ava)** [![Stars](https://img.shields.io/github/stars/avajs/ava?style=social&color=white)](https://github.com/avajs/ava/stargazers)  
+   Futuristic, minimal test runner for Node.js executing tests concurrently in separate processes, ideal for fast, isolated JavaScript integration and browser script executions.
 
-- **[WebdriverIO](https://github.com)**  
+8. **[Vitest](https://github.com/vitest-dev/vitest)** [![Stars](https://img.shields.io/github/stars/vitest-dev/vitest?style=social&color=white)](https://github.com/vitest-dev/vitest/stargazers)  
+   Next-generation Vite-native testing framework with native ESM support and an interactive Browser Mode powered by Playwright and WebdriverIO for authentic browser rendering.
 
-  Extensible open-source browser and mobile automation test framework for Node.js supporting both WebDriver and Chrome DevTools protocols.
+9. **[Jasmine](https://github.com/jasmine/jasmine)** [![Stars](https://img.shields.io/github/stars/jasmine/jasmine?style=social&color=white)](https://github.com/jasmine/jasmine/stargazers)  
+   Clean Behavior-Driven Development (BDD) testing framework for JavaScript with zero external dependencies, historically foundational for browser-level assertions.
 
+10. **[Nightwatch.js](https://github.com/nightwatchjs/nightwatch)** [![Stars](https://img.shields.io/github/stars/nightwatchjs/nightwatch?style=social&color=white)](https://github.com/nightwatchjs/nightwatch/stargazers)  
+    Integrated Node.js end-to-end testing solution featuring built-in test runners, native W3C WebDriver client, and direct cloud integration with BrowserStack and Sauce Labs.
 
+11. **[TestCafe](https://github.com/DevExpress/testcafe)** [![Stars](https://img.shields.io/github/stars/DevExpress/testcafe?style=social&color=white)](https://github.com/DevExpress/testcafe/stargazers)  
+    Zero-WebDriver Node.js end-to-end testing tool that injects scripts into web pages via a reverse-proxy URL rewriting mechanism for hassle-free cross-browser automation.
 
-- **[Nightwatch.js](https://github.com)**  
+12. **[WebdriverIO](https://github.com/webdriverio/webdriverio)** [![Stars](https://img.shields.io/github/stars/webdriverio/webdriverio?style=social&color=white)](https://github.com/webdriverio/webdriverio/stargazers)  
+    Next-gen extensible browser and mobile automation framework for Node.js supporting both W3C WebDriver and Chrome DevTools Protocol with an extensive plugin ecosystem.
 
-  Integrated open-source end-to-end testing framework powered by Node.js with built-in test runner, W3C WebDriver support, and seamless BrowserStack/Selenium grid integration.
+13. **[Cucumber.js](https://github.com/cucumber/cucumber-js)** [![Stars](https://img.shields.io/github/stars/cucumber/cucumber-js?style=social&color=white)](https://github.com/cucumber/cucumber-js/stargazers)  
+    The official JavaScript implementation of Cucumber, enabling teams to execute executable Gherkin plain-text specifications backed by Playwright, Cypress, or WebdriverIO.
 
+14. **[CodeceptJS](https://github.com/codeceptjs/CodeceptJS)** [![Stars](https://img.shields.io/github/stars/codeceptjs/CodeceptJS?style=social&color=white)](https://github.com/codeceptjs/CodeceptJS/stargazers)  
+    Modern scenario-driven BDD testing framework providing high-level human-readable actor APIs on top of underlying helpers like Playwright, WebdriverIO, and Puppeteer.
 
+15. **[Taiko](https://github.com/getgauge/taiko)** [![Stars](https://img.shields.io/github/stars/getgauge/taiko?style=social&color=white)](https://github.com/getgauge/taiko/stargazers)  
+    Free and open-source Node.js library with a smart selector engine and interactive REPL designed by ThoughtWorks for readable and reliable browser automation.
 
-- **[Puppeteer (by Chrome Team)](https://github.com)**  
+---
 
-  Official open-source Node.js library providing a high-level API to control Chrome and Firefox over the DevTools Protocol and WebDriver BiDi.
+### 🛠️ Network Mocking, Accessibility & Performance Testing
 
+16. **[k6 Browser (`grafana/k6`)](https://github.com/grafana/k6)** [![Stars](https://img.shields.io/github/stars/grafana/k6?style=social&color=white)](https://github.com/grafana/k6/stargazers)  
+    Modern load and performance testing tool featuring a native browser module to run real browser automation scripts alongside backend protocol-level stress tests.
 
+17. **[Mock Service Worker (`msw`)](https://github.com/mswjs/msw)** [![Stars](https://img.shields.io/github/stars/mswjs/msw?style=social&color=white)](https://github.com/mswjs/msw/stargazers)  
+    Seamless API mocking tool using Service Workers to intercept and stub REST and GraphQL network requests transparently across Playwright, Cypress, and browser tests.
 
-- **[TestCafe](https://github.com)**  
+18. **[Artillery](https://github.com/artilleryio/artillery)** [![Stars](https://img.shields.io/github/stars/artilleryio/artillery?style=social&color=white)](https://github.com/artilleryio/artillery/stargazers)  
+    Cloud-native load and functional testing platform featuring Playwright engine integration to test critical user journeys under intense simulated traffic.
 
-  Zero-WebDriver open-source Node.js end-to-end testing tool that injects scripts via a URL-rewriting proxy to automate browsers without external drivers.
+19. **[Axe-core Accessibility Engine](https://github.com/dequelabs/axe-core)** [![Stars](https://img.shields.io/github/stars/dequelabs/axe-core?style=social&color=white)](https://github.com/dequelabs/axe-core/stargazers)  
+    The industry-standard accessibility testing engine for HTML, integrating directly into E2E pipelines via `@axe-core/playwright` and `cypress-axe` to enforce WCAG compliance.
 
+20. **[DOM Testing Library](https://github.com/testing-library/dom-testing-library)** [![Stars](https://img.shields.io/github/stars/testing-library/dom-testing-library?style=social&color=white)](https://github.com/testing-library/dom-testing-library/stargazers)  
+    Simple and complete testing utilities that encourage accessible user-centric querying patterns, extended via `playwright-testing-library` and `cypress-testing-library`.
 
+---
 
-- **[CodeceptJS](https://github.com)**  
+### 🖥️ Cloud Grids, Docker Runners & Test Dashboards
 
-  Modern BDD-style open-source end-to-end testing framework allowing engineers to write human-readable scenarios backed by Playwright, WebdriverIO, or Puppeteer.
+21. **[Allure Report](https://github.com/allure-framework/allure2)** [![Stars](https://img.shields.io/github/stars/allure-framework/allure2?style=social&color=white)](https://github.com/allure-framework/allure2/stargazers)  
+    Multi-language, lightweight test report tool producing visual HTML reports with interactive timelines, flaky test charts, screenshots, and step execution details for Playwright and Cypress.
 
+22. **[Sorry Cypress](https://github.com/sorry-cypress/sorry-cypress)** [![Stars](https://img.shields.io/github/stars/sorry-cypress/sorry-cypress?style=social&color=white)](https://github.com/sorry-cypress/sorry-cypress/stargazers)  
+    Open-source, self-hosted on-premise alternative to Cypress Cloud offering automatic test parallelization, artifact storage (S3/MinIO), and execution dashboard.
 
+23. **[Selenoid](https://github.com/aerokube/selenoid)** [![Stars](https://img.shields.io/github/stars/aerokube/selenoid?style=social&color=white)](https://github.com/aerokube/selenoid/stargazers)  
+    Blazing-fast Golang implementation of the Selenium Hub that spins up isolated browser sessions inside lightweight Docker containers on demand with live VNC and video streaming.
 
-- **[Cucumber.js](https://github.com)**  
+24. **[ReportPortal](https://github.com/reportportal/reportportal)** [![Stars](https://img.shields.io/github/stars/reportportal/reportportal?style=social&color=white)](https://github.com/reportportal/reportportal/stargazers)  
+    AI-powered test automation analytics server providing real-time log aggregation, intelligent failure clustering, and deep test health metrics across automated CI suites.
 
-  Official JavaScript implementation of Cucumber enabling Gherkin Behavior-Driven Development (BDD) specifications on top of Playwright, WebdriverIO, or Nightwatch.js.
+25. **[Moon (Aerokube)](https://github.com/aerokube/moon)** [![Stars](https://img.shields.io/github/stars/aerokube/moon?style=social&color=white)](https://github.com/aerokube/moon/stargazers)  
+    Kubernetes-native browser execution grid scaling Playwright, Puppeteer, and Selenium instances inside pods on demand.
 
+---
 
+### 👁️ Visual Regression & Specialized E2E Engines
 
-- **[Jest](https://github.com)**  
+26. **[BackstopJS](https://github.com/garris/BackstopJS)** [![Stars](https://img.shields.io/github/stars/garris/BackstopJS?style=social&color=white)](https://github.com/garris/BackstopJS/stargazers)  
+    Configurable visual regression testing tool catching CSS and layout breakages across responsive viewports via Puppeteer and Playwright.
 
-  Delightful open-source JavaScript testing framework widely paired with Puppeteer (`jest-puppeteer`), Playwright, and jsdom for integration and E2E suites.
+27. **[Loki](https://github.com/oblador/loki)** [![Stars](https://img.shields.io/github/stars/oblador/loki?style=social&color=white)](https://github.com/oblador/loki/stargazers)  
+    Visual regression testing framework built for Storybook powered by headless Chrome, Docker, or AWS Lambda for fast UI component diffing.
 
+28. **[Lost Pixel](https://github.com/lost-pixel/lost-pixel)** [![Stars](https://img.shields.io/github/stars/lost-pixel/lost-pixel?style=social&color=white)](https://github.com/lost-pixel/lost-pixel/stargazers)  
+    Modern holistic visual regression testing engine integrating seamlessly with Storybook, Ladle, Next.js, and Playwright for end-to-end visual validation.
 
+29. **[Synpress](https://github.com/synpress/synpress)** [![Stars](https://img.shields.io/github/stars/synpress/synpress?style=social&color=white)](https://github.com/synpress/synpress/stargazers)  
+    E2E testing framework tailored for Web3 decentralized applications (dApps), providing Playwright & Cypress wrappers with built-in MetaMask and crypto wallet automation.
 
-- **[Vitest](https://github.com)**  
+---
 
-  Blazing-fast Vite-native open-source testing framework featuring an interactive Browser Mode powered by Playwright and WebdriverIO.
+## 📈 Star History
 
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Javascript-End-To-End-Testing-Integration&type=date&legend=top-left)
 
+---
 
-- **[Mocha](https://github.com)**  
+## 💖 Support & Sponsorship
 
-  Flexible, feature-rich open-source JavaScript test framework running on Node.js and in the browser, frequently used as the test runner for Selenium and Puppeteer suites.
+Thank you so much for exploring and using this curated resource! If you find this repository valuable for your engineering team, QA pipelines, or open-source research, please consider supporting the project:
 
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and share** it with fellow automation engineers, SDETs, and frontend teams.
+- ☕ **Buy a coffee & sponsor ongoing maintenance:**  
+  👉 **[Sponsor on GitHub: ishandutta2007](https://github.com/sponsors/ishandutta2007)**
 
+Every contribution and star fuels continuous updates to keep this ecosystem comprehensive, accurate, and up-to-date!
 
-- **[Jasmine](https://github.com)**  
+---
 
-  Behavior-driven open-source testing framework for JavaScript with zero external dependencies, historically powering Protractor and browser integration suites.
+## 🤝 How to Contribute
 
+Contributions are warmly welcome! Please review our guidelines to suggest additions or revisions:
 
+1. 🍴 **Fork the repository** on GitHub.
+2. 📝 **Add or update entries** in `README.md` maintaining the existing structure:
+   - Include tool name, official link, GitHub repository (if open-source), and a concise 1–2 sentence description.
+   - For SaaS products, include exact pricing, free tier/trial limits, and company size data.
+   - For open-source projects, include the social-style star badge linking to its stargazers page.
+3. 🚀 **Submit a Pull Request** with a clear explanation of what was added or changed.
 
-- **[SeleniumJS (`selenium-webdriver`)](https://github.com)**  
+---
 
-  Official JavaScript bindings for the W3C WebDriver standard, enabling cross-browser automation against local browsers and remote Selenium Grids.
+## ⚖️ Disclaimer & Security Best Practices
 
-
-
-- **[Selenium Grid 4](https://github.com)**  
-
-  Distributed open-source browser execution infrastructure allowing teams to scale Nightwatch.js, WebdriverIO, and SeleniumJS tests across parallel Docker nodes.
-
-
-
-- **[Selenoid / Moon (Aerokube)](https://github.com)**  
-
-  High-performance Golang implementation of the Selenium Hub launching isolated, disposable browser containers per session with live VNC and video recording.
-
-
-
-- **[Sorry Cypress](https://github.com)**  
-
-  Open-source, self-hosted drop-in replacement for Cypress Cloud providing parallel test orchestration, video/screenshot storage, and run dashboards.
-
-
-
-- **[Allure Report](https://github.com)**  
-
-  Flexible, multi-language open-source test reporting tool offering rich interactive dashboards, failure trends, and attachments for Playwright, Cypress, and WebdriverIO.
-
-
-
-- **[ReportPortal](https://github.com)**  
-
-  AI-powered open-source test automation dashboard aggregating real-time execution logs, failure triage, and historical metrics from JavaScript test runners.
-
-
-
-- **[BackstopJS](https://github.com)**  
-
-  Open-source visual regression testing tool automating visual diffing of responsive web UIs using Playwright or Puppeteer headless browsers.
-
-
-
-- **[Lost Pixel](https://github.com)**  
-
-  Open-source visual regression testing engine integrating seamlessly with Playwright, Cypress, and Storybook in CI/CD pipelines.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Mock Service Worker (`MSW`)](https://github.com)** for intercepting and mocking REST/GraphQL network requests seamlessly across Playwright, Cypress, and Vitest.
-
-- **[Testing Library (`@testing-library/dom`, `playwright-testing-library`, `cypress-testing-library`)](https://github.com)** for writing resilient, user-centric accessibility queries in E2E tests.
-
-- **[Axe-core Accessibility Testing (`@axe-core/playwright`, `cypress-axe`)](https://github.com)** for embedding automated WCAG accessibility audits directly into JavaScript E2E suites.
-
-- **[Artillery & k6 Browser Module (`grafana/k6`)](https://github.com)** for combining Playwright-based browser E2E flows with hybrid load and performance testing.
-
-- Many community **GitHub Actions sharding templates** and **Docker Playwright/Selenium Compose stacks** for ultra-fast parallel CI execution.
-
-
-
-**Frameworks for building custom systems**: Combine **Playwright** or **WebdriverIO / Nightwatch.js** with **Selenium Grid 4 / Selenoid**, **MSW**, and **Allure Report / ReportPortal** alongside **GitHub Actions** for a scalable, self-hosted JavaScript E2E testing platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- End-to-end testing pipelines executing against staging environments must use isolated test accounts, synthetic/anonymized data, and strictly scoped secrets.
+- This repository is a **community-curated index** provided for informational and educational purposes — listings do not constitute an explicit commercial endorsement.
+- **Security Best Practices**: When configuring automated end-to-end test runners, cloud grids, or CI/CD pipelines against staging/production environments:
+  - Never check raw credentials, API keys, or cloud access tokens into test repositories.
+  - Utilize isolated sandbox/test accounts and synthetic anonymized test datasets.
+  - Apply the principle of least privilege to CI/CD runner secrets and proxy connections.

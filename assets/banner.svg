@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="orbGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      fill: #94a3b8;
+    }
+    .badge-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #e2e8f0;
+    }
+    .code-pill {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #38bdf8;
+    }
+  </style>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Grid overlay -->
+  <rect width="1200" height="420" fill="url(#grid)" rx="16" />
+
+  <!-- Animated Ambient Glowing Orbs in the background -->
+  <circle cx="200" cy="80" r="140" fill="#38bdf8" opacity="0.18" filter="url(#orbGlow)">
+    <animate attributeName="cx" values="180;260;180" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="70;140;70" dur="10s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="1020" cy="320" r="160" fill="#a855f7" opacity="0.22" filter="url(#orbGlow)">
+    <animate attributeName="cx" values="1040;960;1040" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="320;250;320" dur="12s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="650" cy="380" r="120" fill="#06b6d4" opacity="0.14" filter="url(#orbGlow)">
+    <animate attributeName="cx" values="650;720;650" dur="8s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Background Animated Digital Pulse Stream / Flow Wave -->
+  <g opacity="0.45">
+    <path d="M 0 350 Q 300 290 600 350 T 1200 330" fill="none" stroke="url(#primaryGrad)" stroke-width="2" stroke-dasharray="8 8">
+      <animate attributeName="stroke-dashoffset" from="0" to="-100" dur="6s" repeatCount="indefinite" />
+    </path>
+    <path d="M 0 370 Q 300 410 600 360 T 1200 380" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="5 5">
+      <animate attributeName="stroke-dashoffset" from="0" to="80" dur="7s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Animated Status Ping Indicator (Top Right) -->
+  <g transform="translate(1040, 42)">
+    <circle cx="0" cy="0" r="8" fill="#10b981" opacity="0.3">
+      <animate attributeName="r" values="6;16;6" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="5" fill="#10b981" />
+    <text x="16" y="4" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600" fill="#34d399">E2E ECOSYSTEM ACTIVE</text>
+  </g>
+
+  <!-- Foreground Content: Title & Taglines (Protected from background animations) -->
+  <g transform="translate(80, 85)">
+    <!-- Category Pill -->
+    <rect x="0" y="0" width="280" height="32" rx="16" fill="url(#badgeGrad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5" />
+    <text x="16" y="21" class="code-pill">⚡ JAVASCRIPT E2E TESTING STACK</text>
+
+    <!-- Main Title -->
+    <text x="0" y="85" class="title-text" fill="url(#primaryGrad)">
+      Awesome JavaScript E2E Testing
+    </text>
+
+    <!-- Subtitle / Meta Description -->
+    <text x="0" y="125" class="subtitle-text">
+      Curated Ecosystem of Browser Automation, Cloud Test Grids &amp; Orchestration
+    </text>
+
+    <!-- Feature Pillars Badges -->
+    <g transform="translate(0, 160)">
+      <!-- Frameworks Badge -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="42" rx="8" fill="url(#badgeGrad)" stroke="#334155" stroke-width="1" />
+        <circle cx="22" cy="21" r="5" fill="#38bdf8" />
+        <text x="36" y="26" class="badge-label">Playwright &amp; Cypress</text>
+      </g>
+
+      <!-- Webdriver & Selenium Badge -->
+      <g transform="translate(195, 0)">
+        <rect width="180" height="42" rx="8" fill="url(#badgeGrad)" stroke="#334155" stroke-width="1" />
+        <circle cx="22" cy="21" r="5" fill="#818cf8" />
+        <text x="36" y="26" class="badge-label">WebdriverIO &amp; Puppeteer</text>
+      </g>
+
+      <!-- Visual AI Badge -->
+      <g transform="translate(390, 0)">
+        <rect width="170" height="42" rx="8" fill="url(#badgeGrad)" stroke="#334155" stroke-width="1" />
+        <circle cx="22" cy="21" r="5" fill="#c084fc" />
+        <text x="36" y="26" class="badge-label">Visual AI &amp; Diffs</text>
+      </g>
+
+      <!-- Cloud Grids Badge -->
+      <g transform="translate(575, 0)">
+        <rect width="185" height="42" rx="8" fill="url(#badgeGrad)" stroke="#334155" stroke-width="1" />
+        <circle cx="22" cy="21" r="5" fill="#34d399" />
+        <text x="36" y="26" class="badge-label">Cloud Testing Grids</text>
+      </g>
+
+      <!-- CI/CD Orchestration Badge -->
+      <g transform="translate(775, 0)">
+        <rect width="195" height="42" rx="8" fill="url(#badgeGrad)" stroke="#334155" stroke-width="1" />
+        <circle cx="22" cy="21" r="5" fill="#f59e0b" />
+        <text x="36" y="26" class="badge-label">CI/CD Parallelization</text>
+      </g>
+    </g>
+
+    <!-- Bottom Tech Tags -->
+    <g transform="translate(0, 230)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="500" fill="#64748b">
+        Powered by Chromium • WebKit • Firefox • Selenium 4 • Docker Containers • Sharded Test Runners
+      </text>
+    </g>
+  </g>
+</svg>
