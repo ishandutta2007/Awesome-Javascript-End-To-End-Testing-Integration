@@ -1,8 +1,5 @@
 # Awesome-Javascript-End-To-End-Testing-Integration
-<<<<<<< HEAD
 
-=======
->>>>>>> 2958bfab185d13fe3971ea5f4609ba2562cba607
 ## Top JavaScript End-to-End Testing Integration Ecosystem
 
 
@@ -33,79 +30,31 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global automated and continuous testing market is valued at approximately $40 billion (with dedicated CI/CD continuous testing tools comprising $2.5B–$2.7B) and is compounding at ~14–16% CAGR driven by shift-left testing, microservices, and AI-assisted QA workflows. The sector exhibits a moderately fragmented structure: legacy test management and enterprise compliance remain concentrated around a handful of dominant vendors, while the modern cloud execution, browser grid, and visual regression layers remain highly competitive and fragmented with intense startup innovation and open-source disruption.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[BrowserStack Automate (Nightwatch.js, Playwright, Cypress & WebdriverIO)](https://browserstack.com)**  
-
-  Cloud-based cross-browser and real-device testing grid offering native SDK integrations for Nightwatch.js, Playwright, Cypress, and WebdriverIO.
-
-
-
-- **[Cypress Cloud](https://cypress.io)**  
-
-  Managed test orchestration and analytics platform providing smart parallelization, flake detection, test replay, and CI/CD insights for Cypress suites.
-
-
-
-- **[Microsoft Playwright Workspaces (Azure App Testing)](https://microsoft.com)**  
-
-  Cloud-hosted service enabling developers to run Playwright end-to-end test suites at scale across cloud-hosted browsers with high parallelization.
-
-
-
-- **[Sauce Labs Cross-Browser Cloud](https://saucelabs.com)**  
-
-  Enterprise continuous testing cloud supporting JavaScript E2E frameworks (Playwright, Cypress, WebdriverIO, Nightwatch.js) across thousands of browser/OS combinations.
-
-
-
-- **[LambdaTest HyperExecute & Cloud Grid](https://lambdatest.com)**  
-
-  AI-powered test orchestration and cloud execution platform providing instant integrations for Cypress, Playwright, Puppeteer, and WebdriverIO.
-
-
-
-- **[Percy (by BrowserStack)](https://percy.io)**  
-
-  Automated visual testing and review platform integrating directly into Playwright, Cypress, WebdriverIO, and Puppeteer suites to catch UI regressions.
-
-
-
-- **[Applitools Eyes](https://applitools.com)**  
-
-  AI-powered visual UI testing and monitoring platform offering SDKs for every major JavaScript E2E and component testing framework.
-
-
-
-- **[TestCafe Studio (DevExpress)](https://devexpress.com)**  
-
-  Commercial visual test recorder and IDE built on top of the TestCafe engine for codeless and code-hybrid JavaScript E2E test creation.
-
-
-
-- **[Currents.dev](https://currents.dev)**  
-
-  Cloud dashboard and orchestration platform for Playwright, Cypress, and Jest providing parallelization, flake analytics, and Slack/GitHub reporting.
-
-
-
-- **[Momentic / Rainforest QA](https://momentic.ai)**  
-
-  AI-assisted end-to-end web testing platforms enabling natural-language test authoring alongside JavaScript CI/CD execution pipelines.
-
-
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Trial Limits | Company Size (Valuation / Revenue) |
+|---|---|---|---|---|
+| **[Microsoft Playwright Workspaces (Azure App Testing)](https://azure.microsoft.com/products/playwright-testing)** | Managed cloud-hosted browser infrastructure enabling Playwright test suites to run at massive cloud scale. | $0.01 / browser minute (Linux); $0.02 / browser minute (Windows) pay-as-you-go | 30-day free trial with 100 free browser minutes (1 workspace per Azure subscription) | $3.1+ Trillion Market Cap / $245B+ Annual Revenue |
+| **[BrowserStack Automate](https://browserstack.com/automate)** | Real-device & browser cloud testing grid featuring native SDK integrations for Playwright, Cypress, WebdriverIO, and Nightwatch.js. | $59/month (Chrome Desktop) or $99/month (All Desktops, billed annually) per parallel test | 60 automated testing minutes (no credit card required; unlimited team members) | $4 Billion Valuation / ~$200M–$225M ARR |
+| **[Percy (by BrowserStack)](https://percy.io)** | Automated visual testing & review platform integrating into Playwright, Cypress, WebdriverIO, and Puppeteer to catch UI regressions. | $199/month (Desktop plan, billed annually) for 10,000 screenshots/month | Free forever: 5,000 web screenshots/month (unlimited users & projects) | Parent: $4 Billion Valuation (BrowserStack) |
+| **[Sauce Labs Cross-Browser Cloud](https://saucelabs.com)** | Enterprise continuous testing cloud supporting JavaScript E2E frameworks across thousands of browser/OS combinations. | $39/month (Live testing) or $149/month (Virtual Device Cloud, billed annually) | 28-day free trial: 60 automated/live testing minutes, 3 parallel VMs, 50 AI queries | $613 Million Valuation / ~$66M–$100M ARR |
+| **[LambdaTest HyperExecute & Cloud Grid](https://lambdatest.com)** | AI-orchestrated cloud execution grid providing high-speed parallel runs for Cypress, Playwright, Puppeteer, and WebdriverIO. | $79/month (Web Automation, billed annually) per parallel test | Free forever: 100 lifetime automated testing minutes (2 parallel sessions) & 60 live minutes/month | $400 Million Valuation / ~$20M–$120M Revenue |
+| **[Applitools Eyes](https://applitools.com)** | Visual AI testing & monitoring engine offering SDKs for every major JavaScript E2E and component testing framework. | $667/month (Starter tier, billed annually) | 14-day free trial: 50 test units / limited checkpoints | $250M–$500M Acquisition Valuation / ~$25M–$30M ARR |
+| **[Cypress Cloud](https://cypress.io)** | Managed test orchestration and analytics platform providing smart parallelization, flake detection, and Test Replay for Cypress suites. | $67/month ($799/year billed annually for Team plan; 120,000 test results/year) | Free forever: 500 test results/month, up to 10 users, 30-day data retention | $255 Million Valuation / ~$15M–$18M ARR |
+| **[TestCafe Studio (DevExpress)](https://www.devexpress.com/products/testcafestudio/)** | Commercial visual test recorder and IDE built on the TestCafe engine for codeless and code-hybrid JavaScript E2E tests. | $244.99/year per tester license (annual subscription) | 30-day fully functional free trial (no license key required during trial) | Bootstrapped; ~$44M–$50M Annual Revenue |
+| **[Rainforest QA](https://www.rainforestqa.com)** | AI-driven and crowd-assisted functional testing platform enabling natural-language and no-code authoring alongside CI/CD pipelines. | $200/month (Pay-As-You-Go base + $5/hr automated testing) | Free forever (Essentials): 5 hours of automated testing/month | ~$42M Total Raised / ~$25M ARR |
+| **[Momentic](https://momentic.ai)** | AI-native end-to-end testing platform enabling natural-language test authoring, self-healing, and JavaScript CI/CD integration. | $500/month (Scale plan) | Free forever: $50 worth of monthly usage credits (approx. 2,000 credits, no credit card required) | ~$22.8M Total Raised (Series A) |
+| **[Currents.dev](https://currents.dev)** | Cloud orchestration dashboard for Playwright, Cypress, and Jest with parallelization, flake analytics, and CI/CD reporting. | $49/month (Scale plan for 10,000 test results/month) | 14-day free trial: up to 10,000 test results (no credit card required) | Early-stage private / ~$440K ARR |
 
 ## Open-Source GitHub Projects
 
